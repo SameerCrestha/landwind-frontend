@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Inter";
+    src: url("../public/fonts/Inter-VariableFont_slnt,wght.ttf");
+  }
+
+  html {
+    font-size: 12px;
+    @screen md {
+      font-size: 16px;
+    }
+    @screen lg {
+      font-size: 16px;
+    }
+  }
